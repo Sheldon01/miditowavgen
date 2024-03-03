@@ -10,7 +10,7 @@ SOUNDFONT_PATH = '/home/sheldonwest/Music Generation Website/musicgenerationwebs
 def convert_midi_to_wav(midi_file, output_file):
     subprocess.run(['fluidsynth', '-T', 'wav', '-F', output_file, SOUNDFONT_PATH, midi_file])
 
-@app.route('/')
+@app.route('/hello')
 def home():
     return render_template('index.html')
 

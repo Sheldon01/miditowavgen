@@ -1,0 +1,49 @@
+/* Reset some basic elements */
+body,
+h1,
+button,
+audio {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+  background-color: #000000;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+audio {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
